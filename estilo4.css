@@ -1,0 +1,43 @@
+.titulo{
+   
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    position: center;
+
+}
+.nordeste{
+    
+    font-size: 10px;
+    border-style: solid 1px;
+    background-color: green;
+    position: center;
+}
+.sul{
+   
+    font-size: 10px;
+    border-style: solid 1px;
+    background-color:red;
+    position: center;
+}
+.norte{
+   
+    font-size: 10px;
+    border-style: solid 1px;
+    background-color:yellow;
+    position: center;
+}
+.centro{
+   
+    font-size: 10px;
+    border-style: solid 1px;
+    background-color:blue;
+    position: center;
+}
+.sudeste{
+   
+    font-size: 10px;
+    border-style: solid 1px;
+    background-color:purple;
+    position: center;
+}

@@ -1,0 +1,21 @@
+#a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+#b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: seagreen;
+}
+#c{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+#d{
+    color: yellow;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

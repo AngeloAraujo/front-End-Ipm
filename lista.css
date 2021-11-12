@@ -1,0 +1,36 @@
+.body1{
+
+    background-color: rgb(130, 214, 247);
+    background-image: url(https://i.pinimg.com/736x/f7/54/7d/f7547d58bd2973819ed7060935308904.jpg);
+}
+.p{
+    background-color: rgb(128, 219, 128);
+}
+.bodyv{
+    background-image: url(https://i.pinimg.com/236x/a0/be/54/a0be5481a63ae02da28ae1a9232bf119.jpg);
+    background-repeat:repeat-y
+}
+.bodyr{
+   background-image: url(https://quatrorodas.abril.com.br/wp-content/uploads/2020/03/dscf5856.dng_-e1588959378786.jpg?quality=70&strip=info);
+    background-repeat: no-repeat  
+}
+.bodyc{
+    background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2020/06/34-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bodyg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    
+    
+}
+.bodyg .imagem{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP7deez7HNT8o96nzpoYSpPP9sMmza7gslQ&usqp=CAU);
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    
+}

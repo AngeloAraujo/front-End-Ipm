@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulário Pizza</h1>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>Cliente</h3>
+            </legend>
+            <table>
+                <tr>
+                    <th colspan="2">
+                    </th>
+
+                <tr>
+                    <td><label for="nome">*Nome</label></td>
+                    <td><input id="nome" name="nome" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="sobrenome">*Sobrenome</label></td>
+                    <td><input id="sobrenome" name="sobrenome" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="endereço">*Endereço</label></td>
+                    <td><input id="endereço" name="endereço" type="text"> número: <input id="número" name="número"
+                            required="" minlength="0" maxlength="999"></td>
+                <tr>
+                    <td><label for="bairro">*Bairro</label></td>
+                    <td><input id="bairro" name="bairro" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="cidade">*Cidade</label></td>
+                    <td><input id="cidade" name="cidade" type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefone">*Telefone</label></td>
+                    <td><input id="telefone" name="telefone" type="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">*E-mail</label></td>
+                    <td><input id="email" name="email" type="email"></td>
+                </tr>
+
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Pizza</h3>
+            </legend>
+            <table>
+                <tr>
+                    <th colspan="2">
+
+                </tr>
+                <tr>
+                    <td><label for="tamanho">*Escolha o tamanho da sua pizza</label></td>
+                    <td><select id="tamanho" name="tamanho">
+                            <optgroup label="Sabor">
+                                <option value="1">Pequena</option>
+                                <option value="2">Média</option>
+                                <option value="3">Grande</option>
+                                <option value="4">Gigante</option>
+                            </optgroup>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sabor">*Escolha o sabor da sua pizza</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="sabor" id="sabor">4 queijos</br>
+                        <input type="checkbox" name="sabor" id="sabor">Peperoni</br>
+                        <input type="checkbox" name="sabor" id="sabor">Strogonoff de carne</br>
+                        <input type="checkbox" name="sabor" id="sabor">Mexicana</br>
+                        <input type="checkbox" name="sabor" id="sabor">Calabresa</br>
+                        <input type="checkbox" name="sabor" id="sabor">Chocolate Branco</br>
+                        <input type="checkbox" name="sabor" id="sabor">Chocolate preto</br>
+                    </td>
+                </tr>
+                <td><label for="borda">*Escolha a borda da sua pizza</label></td>
+                <td><select id="borda" name="borda">
+                        <optgroup label="borda">
+                            <option value="1">Requeijão</option>
+                            <option value="2">Chocolate</option>
+                            <option value="3">Sem borda recheada</option>
+                        </optgroup>
+                </td>
+                </tr>
+
+                <tr>
+                    <td><label for="obs">Observações:</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="5" cols="75" id="obs" name="obs" maxlength="100"></textarea><br>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Pagamento</h3>
+            </legend>
+            <table>
+                <tr>
+                    <th colspan="2">
+
+                </tr>
+                <tr>
+                    <td><label for="pagamento">*Escolha a forma de pagamento</label></td>
+                    <td><select id="pagamento" name="pagamento">
+                            <optgroup label="pagamento">
+                                <option value="1">Dinheiro</option>
+                                <option value="2">Cartão</option>
+                                <option value="3">Cheque</option>
+                            </optgroup>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        tr, td{
+            border: 2px solid black;
+        }
+    </style>
+
+    <form>
+        <table>
+
+            <tr height="50px"><th Colspan="2"><strong>Formulário</strong></th>
+            </tr>
+            <tr>
+                <td class="firstId" width="160px" height="23px"><label for="nome"><strong>Nome</strong></label></td>
+                <td width=230px height=26px><input id= "nome" name="nome" type="text">*</p></td>
+            </tr>
+            <tr>
+                <td class="firstId" ><label for="email"><strong>E-mail</strong></label></td>
+                <td><input id= "email" name="email" type="email">*</p></td>
+            </tr>
+            <tr>
+                <td class="firstId" ><label for="itens"><strong>Qtd. de itens</strong></label></td>
+                <td><input id= "itens" name="itens" required="" minlength="1" maxlength="10">(Intervalo de 1 a 10)</p></td>
+            </tr>
+            <tr>
+                <td class="firstId" ><label for="data"><strong>Data do pedido</strong></label></td>
+                <td><input id= "data" name="data" type="date">*</p></td>
+            </tr>
+            <tr>
+                <td class="firstId" ><label for="hora"><strong>Hora do pedido</strong></label></td>
+                <td><input id= "hora" name="hora" type="time">*</p></td>
+            </tr>
+            <tr>
+                <td class="firstId" ><label for="color"><strong>Cor</strong></label></td>
+                <td><input type="color" name="color" id="color"></p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>*Obrigatórios</label></td>
+            </tr>
+            <tr>  
+                <td></td>
+                <td ><input type="submit" value="Enviar dados"></td>
+
+
+       </table>
+
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.imagem1{
+
+    width: 300px;
+    height: 260px;
+    margin-left: 400px;
+    margin-top: 0pt;
+    position: absolute;
+}
+.imagem2{
+    width: 300px;
+    height: 260px;
+    margin-left: 700px;
+    margin-top: 260px;
+    position: absolute;
+
+}.imagem3{
+    width: 300px;
+    height: 260px;    
+    margin-left: 2100px;
+    margin-top: 740px;
+    position: absolute;
+
+}
+.imagem4{
+    width: 300px;
+    height: 260px;
+    margin-left: 2400px;
+    margin-top: 1000px;
+    position: absolute;
+
+    
+}
+
+.imagem5{
+    width: 300px;
+    height: 260px;
+    margin-top: 1000px;
+    margin-left: 400px;
+    position: absolute;
+    
+    
+}
+    
